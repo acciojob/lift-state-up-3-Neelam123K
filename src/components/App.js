@@ -15,7 +15,7 @@ const App = () => {
         <h1>Parent Component</h1>
         <ChildComponent1 onSelect={handleOptionChange}/>
         <ChildComponent2 onSelect={handleOptionChange}/>
-        <p>selected Option: {selectedOption}</p>
+        <p>selected Option: {SelectedOption}</p>
     </div>
   )
 }
